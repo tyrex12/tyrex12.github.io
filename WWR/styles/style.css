@@ -64,6 +64,7 @@ nav a {
     color: #fcfbfb;
     text-decoration: none;
     padding: 35px;
+    width: 80px;
 }
 #hero {
     display: grid;
@@ -109,7 +110,9 @@ main section {
 }
 .home-grid {
     display: grid;
+    grid-template-columns: repeat(10, 1fr);
     grid-template-columns: 10;
+
 
 }
 h4 {
@@ -146,7 +149,7 @@ footer h3 a:hover {
     padding-top: 10px;
     justify-self: center;
     align-self: center;
-    width: 175px;
+    width: 80px;
 }
 footer .social img {
     padding-top: 15px
@@ -178,8 +181,8 @@ main section img {
     grid-row-end: 3;
 }
 .rapids-card {
-    grid-column-start: 7;
-    grid-column-end: 9;
+    grid-column-start: 8;
+    grid-column-end: 10;
     grid-row-start: 2;
     grid-row-end: 3;
 }
@@ -209,6 +212,8 @@ main section img {
     }
     #hero {
         margin-top: 0;
+        height: 100%;
+        width: 100%;
     }
     #hero-msg {
         margin-top: 0;
