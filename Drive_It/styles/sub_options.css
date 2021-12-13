@@ -7,15 +7,19 @@
 
 }
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    background-color: #c7dbe6; color: #06070e;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    background-color: white; color: #06070e;
     margin: 0;
     padding: 0;
+    font-weight: bold;
+}
+h1 {
+    font-weight: bolder;
 }
 header {
-    font-family: 'PT Sans', sans-serif;
-    background-color: #c7dbe6; color: #06070e;
+    font-family: 'Roboto', sans-serif;
+    background-color: white; color: #06070e;
     display: grid;
     grid-template-columns: 1% 20% 30% 20%;
     grid-template-rows: 20% 20% 60%
@@ -105,8 +109,109 @@ footer {
 }
 .line {
     width: 1600px;
-height: 47px;
-border-bottom: 1px solid black;
+border-bottom: 7px solid #7e4e60;
 position: absolute;
 }
 
+.first-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px 1fr 50px 1fr 50px;
+    grid-template-rows: 250px 1fr 200px 1fr 10px 
+}
+#title {
+    text-align: center;
+    grid-column: 2/7;
+    grid-row: 1;
+    
+}
+h1 {
+    font-size: 36px;
+    text-decoration: underline #c7dbe6;
+}
+.card-img {
+    height: 220px;
+    width: 340px;
+}
+.base-card {
+    grid-row: 2;
+    grid-column: 2;
+    text-align: center;
+    transition: transform .5s;
+    box-shadow: 5px 5px 5px 5px #7e4e60;
+    border-color: #7e4e60;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.offroad-card {
+    grid-row: 2;
+    grid-column: 4;
+    text-align: center;
+    transition: transform .5s;
+    box-shadow: 5px 5px 5px 5px #7e4e60;
+    border-color: #7e4e60;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.luxury-card {
+    grid-row: 2;
+    grid-column: 6;
+    text-align: center;
+    transition: transform .5s;
+    box-shadow: 5px 5px 5px 5px #7e4e60;
+    border-color: #7e4e60;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.double-card {
+    grid-row: 4;
+    grid-column: 2;
+    text-align: center;
+    transition: transform .5s;
+    box-shadow: 5px 5px 5px 5px #7e4e60;
+    border-color: #7e4e60;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.commuter-card {
+    grid-row: 4;
+    grid-column: 4;
+    text-align: center;
+    transition: transform .5s;
+    box-shadow: 5px 5px 5px 5px #7e4e60;
+    border-color: #7e4e60;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.work-card {
+    grid-row: 4;
+    grid-column: 6;
+    text-align: center;
+    transition: transform .5s;
+    box-shadow: 5px 5px 5px 5px #7e4e60;
+    border-color: #7e4e60;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+#rules {
+    grid-column: 2/6;
+    grid-row: 5;
+}
+h4 {
+    margin-top: 40px;
+    font-size: 16px;
+}
+h5 {
+    font-size: 12px;
+}
