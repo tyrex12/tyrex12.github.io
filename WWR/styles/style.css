@@ -59,13 +59,14 @@ footer {
     margin: 0 auto;
 
 }
-nav a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-    padding: 35px;
-    width: 80px;
-}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
