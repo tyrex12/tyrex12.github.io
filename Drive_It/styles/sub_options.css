@@ -9,7 +9,7 @@
 body {
     font-family: 'PT Sans', sans-serif;
     font-size: 22px;
-    background-color: white; color: #06070e;
+    background-color: #c7dbe6; color: #06070e;
     margin: 0;
     padding: 0;
     font-weight: bold;
@@ -19,12 +19,12 @@ h1 {
 }
 header {
     font-family: 'Roboto', sans-serif;
-    background-color: white; color: #06070e;
+    background-color: #c7dbe6; color: #06070e;
     display: grid;
     grid-template-columns: 1% 20% 30% 20%;
     grid-template-rows: 20% 20% 60%
 }
-#logo_link {
+#logo-link {
     padding-top: 20px;
     justify-self: center;
     align-self: center;
@@ -33,7 +33,7 @@ header {
     grid-row: 2;
     padding-top: 75px;
 }
-#logo-img{
+#logo{
     height: 150px;
     width: 150px;
     border-radius: 50%;

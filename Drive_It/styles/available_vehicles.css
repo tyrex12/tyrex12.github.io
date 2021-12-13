@@ -109,14 +109,14 @@ footer {
 }
 .line {
     width: 1600px;
-border-bottom: 7px solid #7e4e60;
+border-bottom: 4px solid #7e4e60;
 position: absolute;
 }
 
 .home-grid {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
 }
 #title {
     text-align: center;
@@ -218,6 +218,6 @@ position: absolute;
     width: 300px;
 }
 h1 {
-    font-size: 36px;
+    font-size: 30px;
     text-decoration: underline #c7dbe6;
 }
