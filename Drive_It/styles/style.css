@@ -221,3 +221,30 @@ main section {
     padding-top: 175px;
     height: 300px;
 }
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+        height: 100%;
+        width: 100%;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #background {
+        display: none;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
